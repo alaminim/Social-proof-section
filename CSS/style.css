@@ -1,0 +1,195 @@
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+main {
+    max-width: 85%;
+    height: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+}
+.bottom-bg {
+    position: absolute;
+    top: 15rem;
+    right: 0;
+    width: 55%;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: 'League Spartan', 'Franklin Gothic Medium';
+    font-size: 49px;
+    color: hsl(300, 43%, 22%);
+   
+}
+.info {
+    color:  hsl(303, 10%, 53%);
+}
+.highlight {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.comment {
+    width: 38%;
+    padding: 1rem;
+}
+.ratings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    height: 10rem;
+    padding: 3rem;
+}
+.rate-1 {
+    border-radius: 15px;
+    width: 350px;
+    padding: 1rem;
+}
+.rate-2 {
+    border-radius: 15px;
+    width: 350px;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.rate-3 {
+    border-radius: 15px;
+    width: 350px;
+    padding: 1rem;
+    margin-left: 2.5rem;
+}
+
+  #rate {
+    background:  hsl(300, 24%, 96%);
+    display: flex;
+    gap: 15px;
+  }
+  .reviews {
+    display: flex;
+    justify-content: space-around;
+  }
+  .cards {
+    background: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    width: 280px;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    
+  }
+  .comments {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+  }
+  span {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  h5 {
+    margin-bottom: 0;
+    font-size: 20px;
+    
+  }
+  .tag {
+    margin-top:0;
+    color: hsl(333, 80%, 67%);
+    font-size: 12px;
+  }
+  .profile-pic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  #card-2 {
+    margin-top: 2.5rem;
+  }
+  #card-3 {
+    margin-top: 4.5rem;
+  }
+  .mobile-top-bg {
+    display: none;
+  }
+  .mobile-bg-bottom {
+    display: none;
+  }
+  @media screen and (max-width:560px){
+   
+    .top-bg {
+        display: none;
+    }
+    .bottom-bg {
+        display: none;
+    }
+    .highlight {
+        display: flex;
+        flex-direction: column;
+    }
+    .comment {
+        margin-top: -12rem;
+        width: 100%;
+    }
+    .main {
+        width: 90%;
+        padding: 0;
+    }
+    .ratings{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -1rem;
+        
+        
+       
+    }
+    .rate-1 {
+        width: 100%;
+        margin-left: 0;
+        
+        
+    } 
+    .rate-2 {
+        margin-left: 0;
+    }
+    .rate-3 {
+        margin-left: 0;
+    }
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .cards {
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .mobile-top-bg {
+        display: block;
+    }
+    .mobile-bg-bottom {
+        display: block;
+        width: 100%;
+        right: 0;
+        margin-top: -10rem;
+    }
+    
+    
+  }
